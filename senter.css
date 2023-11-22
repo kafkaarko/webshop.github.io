@@ -613,7 +613,7 @@
         display: grid;
         align-items: center;
         gap: 3rem;
-        padding: 30px;
+        padding: 0px;
     }
     .pic{
         display: flex;
@@ -678,11 +678,13 @@
     
     .between{
         display: grid;
-        padding:15px;
+        padding:px;
     }
     
     .one{
-        padding:30px;
+        padding:1px;
+        display: flex;
+        justify-content: center;
     }
     
     .one img{
@@ -691,7 +693,7 @@
     }
     
     .tree{
-        padding:20px
+        padding:
     }
     
     .tree img{
@@ -703,6 +705,10 @@
         display: flex;
         justify-content: center;
         font-size: large;
+    }
+
+    .two{
+        height: 300px;
     }
     
     .two h2{
@@ -724,7 +730,7 @@
     }
     
     .oke p{
-        width: 400px;
+        width: 300px;
     }
     
     .koko .koko2{
